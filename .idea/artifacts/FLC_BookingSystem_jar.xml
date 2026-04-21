@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FLC_BookingSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FLC_BookingSystem_jar</output-path>
+    <root id="archive" name="FLC_BookingSystem.jar">
+      <element id="module-output" name="FLC_BookingSystem" />
+    </root>
+  </artifact>
+</component>

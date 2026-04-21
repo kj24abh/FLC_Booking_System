@@ -31,7 +31,6 @@ public class Booking {
 
     public void cancel() {
         lesson.removeMember(this.member);
-        this.status = Status.CANCELLED;
     }
 
     public int getBookingId() { return bookingId; }
