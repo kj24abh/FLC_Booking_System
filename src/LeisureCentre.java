@@ -14,7 +14,6 @@ public class LeisureCentre {
 
     public LeisureCentre() {
         setupMembers();
-        setupTimetable();
         reportGenerator = new ReportGenerator(timetable, bookingManager);
         setupPreloadedData();
     }
