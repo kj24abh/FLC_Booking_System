@@ -23,7 +23,6 @@ public class ReportGenerator {
         System.out.println("\n" + "=".repeat(60));
         String monthName = (month == 5) ? "May" : (month == 6) ? "June" : "Month " + month;
         System.out.println("  MONTHLY LESSON REPORT - " + monthName.toUpperCase());
-        System.out.println("=".repeat(80));
         Map<Integer, List<Lesson>> byWeek = new LinkedHashMap<>();
         for (Lesson l : monthLessons) {
             byWeek.computeIfAbsent(l.getWeekNumber(), k -> new ArrayList<>()).add(l);
