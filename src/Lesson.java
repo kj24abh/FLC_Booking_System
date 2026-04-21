@@ -21,7 +21,6 @@ public class Lesson {
         this.timeSlot = timeSlot;
         this.weekNumber = weekNumber;
         this.monthNumber = monthNumber;
-        this.price = price;
     }
 
     public boolean hasSpace() {
