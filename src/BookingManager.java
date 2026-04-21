@@ -26,7 +26,6 @@ public class BookingManager {
         }
         lesson.addMember(member);
         Booking booking = new Booking(nextBookingId++, member, lesson);
-        bookings.add(booking);
         System.out.println("Booking successful! " + booking.toShortString());
         return booking;
     }
