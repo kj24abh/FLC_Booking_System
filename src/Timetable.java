@@ -17,7 +17,6 @@ public class Timetable {
     }
 
     public List<Lesson> getByExerciseType(String type) {
-        List<Lesson> result = new ArrayList<>();
         for (Lesson l : lessons) {
             if (l.getExerciseType().equalsIgnoreCase(type)) result.add(l);
         }
